@@ -1,0 +1,22 @@
+{
+  "name": "bcrypt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "model.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
